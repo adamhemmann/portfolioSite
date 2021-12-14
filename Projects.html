@@ -1,0 +1,89 @@
+<!--
+Name: Adam Hemmann
+Pawprint: ashgx6    
+Date: 10/3/2021
+Challenge Flex Box F21
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+            crossorigin="anonymous">
+        <!-- Font obtained from https://fonts.google.com/specimen/Montserrat?category=Sans+Serif -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/temp.css">
+        <link rel="stylesheet" href="css/toDoList.css">
+        <title>Projects</title>
+    </head>
+    <body>
+        <div class="container-fluid" id="navContainer">
+            <!--https://getbootstrap.com/docs/5.0/helpers/position/-->
+            <div class="row fixed-top">
+                <!--https://getbootstrap.com/docs/5.0/layout/grid/
+                    https://getbootstrap.com/docs/5.0/layout/columns/-->
+                <div class="col-12">
+                    <ul class="navLinks">
+                        <li id="myName"><a href="index.html">Adam Hemmann</a></li>
+                        <li><a href="Skills.html">Skills</a></li>
+                        <li><a href="Coursework.html">Coursework</a></li>
+                        <li class="active"><a href="#">Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="projectsContainer">
+            <div class="projectsCard">
+                <div>
+                    <!-- image for to do list project card taken from: https://collegeinfogeek.com/wp-content/uploads/2019/05/best-to-list-apps-featured-image.jpg -->
+                    <img class="projectImg" id="toDoCardImage" src="img/best-to-list-apps-featured-image.png" alt="To-do list">
+                </div>
+                <div class="cardTitleContainer">
+                    <span class="projectTitle">To-Do List w/ jQuery</span>
+                </div>
+                <div class="cardTextContainer">
+                    <p class="projectDesc">This project is my introduction to JavaScript and jQuery. Bootstrap 5 is also used.</p> 
+                    <p class="projectDesc">A simple to-do list app which implements localStorage to allow for users to save and load their task lists.</p>
+                </div>
+                <div class="cardLinkContainer">
+                    <a href="toDoList/">Link to project</a>
+                </div>
+            </div>
+            <div class="projectsCard">
+                <div>
+                    <img class="projectImg" src="img/server.png" alt="Server room">
+                </div>
+                <div class="cardTitleContainer">
+                    <span class="projectTitle">PHP Playground</span>
+                </div>
+                <div class="cardTextContainer">
+                    <p class="projectDesc">My first experience server-side scripting with PHP. The user can select from a number of server-side scripts to run and receive input back.</p>
+                </div>
+                <div class="cardLinkContainer">
+                    <a href="phpPlayground/">Link to project</a>
+                </div>
+            </div>
+            <div class="projectsCard">
+                <div>
+                    <!-- Image from https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/pia24543-1-16.jpg?itok=HPovJd-H -->
+                    <img class="projectImg" src="img/rover.png" alt="A martian rover">
+                </div>
+                <div class="cardTitleContainer">
+                    <span class="projectTitle">Mars Rover Image Gallery</span>
+                </div>
+                <div class="cardTextContainer">
+                    <p class="projectDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="cardLinkContainer">
+                    <a href="roverApp/">Link to project</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

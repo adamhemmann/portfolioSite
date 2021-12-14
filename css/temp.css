@@ -1,0 +1,295 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    color: #023047;
+    background-color: #219EBC;
+    margin: 0;
+}
+.goTigers {
+    height: 90px;
+}
+#toTheLeftToTheLeft {
+    margin-left: -15px;
+}
+#schoolNameRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#cardsWrapper {
+    display: block;
+    margin-bottom: 50px;
+    width: 90%;
+    align-items: center;
+}
+#tableContainer {
+    margin-top: 100px;
+}
+td {
+    font-size: 12px;
+}
+.table .centerMiddle {
+    text-align: center;
+    vertical-align: middle;
+}
+.card {
+    height: 100%;
+    box-shadow: 10px 10px 8px #00000033;
+}
+.deptName {
+    font-size: 18px;
+}
+.smallerCardText {
+    font-size: 12px;
+}
+#middleCard {
+    background-image: url(img/python-logo-master-v3-TM-flattened.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.openModal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.openModal a {
+    padding: 10px 20px;
+    background-color: azure;
+    color: #023047;
+    font-size: 14px;
+    text-decoration: none;
+}
+#myModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.75);
+    display: none;
+}
+#myModal .myModalContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 400px;
+    padding: 10px 20px;
+    background-color: azure;
+}
+#myModal a.closeMyModal {
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+#myModal:target {
+    display: block;
+}
+#makeThisOneTaller {
+    height: 100px;
+}
+.navLinks {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #8ECAE6;
+    box-shadow: 0 5px 5px #00000033;
+    z-index: 9999;
+}
+.navLinks li {
+    margin-left: 3px;
+    margin-top: 9px;
+}
+.navLinks a {
+    text-decoration: none;
+    color: #023047;
+    padding: 5px;
+    border-radius: 10px;
+}
+.active {
+    background-color: #219EBC;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px #00000033;
+}
+#myName {
+    margin: 8px;
+    margin-right: 0;
+    font-size: 28px;
+    font-weight: 600;
+}
+.skillsWrapper { 
+    border: 10px solid #023047;
+    border-radius: 25px;
+    padding: 11px;
+    width: 1160px;
+    margin: auto;
+    margin-top: 8%;
+    box-shadow: 5px 5px 5px #00000033;
+}
+.rowWrapper {
+    border-radius: 25px;
+    margin: 23px; 
+    width: 432px; 
+    float: left; 
+}
+.column {
+    background-color: #219EBC; 
+    border: 9px solid #8ECAE6; 
+    border-radius: 25px; 
+    height: 425px; 
+    padding: 20px; 
+    margin: 23px; 
+    text-align: justify;
+    float: left; 
+    box-shadow: 5px 5px 5px #00000033;
+}
+.left {
+    width: 251px;
+}
+.right {
+    width: 223px;
+}
+#coriElliott {
+    width: 60%;
+    height: auto;
+}
+.skillsRow {
+    background-color: #219EBC; 
+    width: 376px; 
+    padding: 22px; 
+    border: 6px solid #8ECAE6; 
+    border-radius: 25px; 
+    box-shadow: 5px 5px 5px #00000033;
+}
+.top {
+    height: 211px; 
+    margin-bottom: 30px; 
+}
+.bottom {
+    height: 130px; 
+}
+#skillsHeader {
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+.listHeader {
+    font-weight: 400;
+}
+.clear:after {
+    content: "";
+    clear: left;
+    display: table;
+}
+.content {
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -44%);
+}
+#headShot {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 40%;
+    border-radius: 8px;
+    border: 4px solid #023047;
+}
+#greeting {
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.portfolioP {
+    margin-left: -5%;
+    text-align: center;
+    font-size: 20px;
+    color: #8ECAE6;
+    width: max-content;
+}
+.button {
+    border: none;
+    color: #1152ca;
+    display: inline-block;
+    font-size: 16px;
+    padding: 3px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.social {
+    margin-top: 10px;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.social a {
+    vertical-align: middle;
+    text-decoration: none;
+    border-radius: 4px;
+}
+#skillsFooter {
+    text-align: center;
+    font-weight: 100;
+}
+#projectsContainer {
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 88%;
+    position: relative;
+}
+.projectsCard {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 440px;
+    height: 500px;
+    background-color: #8ECAE6;
+    border: 2px solid #023047;
+    border-radius: 8px;
+    position: relative;
+    margin: 4% 15px;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 8px #00000033;
+}
+.projectImg {
+    width: 100%;
+    border-bottom: 8px solid #023047;
+    border-radius: 8px 8px 0 0;
+}
+.projectTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 12px 0 12px 00;
+}
+.cardTitleContainer {
+    text-align: center;
+}
+.cardTextContainer {
+    padding: 0 10px;
+}
+.cardLinkContainer {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
