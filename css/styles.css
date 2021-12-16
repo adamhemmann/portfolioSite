@@ -95,15 +95,9 @@ td {
   height: 100px;
 }
 /* NAV BAR */
-#topNav {
-  /* height: 56px; */
-  margin: 0;
-  padding: 8px 0;
-  box-shadow: 0 5px 5px #00000033;
-  border: 5px solid green;
-}
-#navLinksContainer {
-  height: 200px;
+.navbar-custom {
+  height: 60px;
+  background-color: #8ecae6;
 }
 /* .navLinks {
     position: fixed;
