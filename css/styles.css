@@ -1,6 +1,5 @@
 html,
 body {
-  font-family: "Montserrat", sans-serif;
   color: #023047;
   background-color: #219ebc;
   margin: 0;
@@ -95,9 +94,13 @@ td {
   height: 100px;
 }
 /* NAV BAR */
+.navbar-body {
+  background-color: #8ecae6;
+}
 .navbar-custom {
   height: 60px;
-  background-color: #8ecae6;
+  padding: 0;
+  /* background-color: #8ecae6; */
 }
 /* .navLinks {
     position: fixed;
