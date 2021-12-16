@@ -22,225 +22,335 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet"
-            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
-            crossorigin="anonymous">
-        <!-- Font obtained from https://fonts.google.com/specimen/Montserrat?category=Sans+Serif -->
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/temp.css">
-        <title>Coursework</title>
-    </head>
-    <body>
-        <div class="container-fluid" id="navContainer">
-            <!--https://getbootstrap.com/docs/5.0/helpers/position/-->
-            <div class="row fixed-top">
-                <!--https://getbootstrap.com/docs/5.0/layout/grid/
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Font obtained from https://fonts.google.com/specimen/Montserrat?category=Sans+Serif -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/temp.css" />
+    <title>Coursework</title>
+  </head>
+  <body>
+    <div class="container-fluid" id="navContainer">
+      <!--https://getbootstrap.com/docs/5.0/helpers/position/-->
+      <div class="row fixed-top">
+        <!--https://getbootstrap.com/docs/5.0/layout/grid/
                     https://getbootstrap.com/docs/5.0/layout/columns/-->
-                <div class="col-12">
-                    <ul class="navLinks">
-                        <li id="myName"><a href="index.html">Adam Hemmann</a></li>
-                        <li><a href="Skills.html">Skills</a></li>
-                        <li class="active"><a href="Coursework.html">Coursework</a></li>
-                        <li><a href="Projects.html">Projects</a></li>
-                    </ul>
-                </div>
-            </div>
+        <div class="col-12">
+          <ul class="navLinks">
+            <li id="myName"><a href="index.html">Adam Hemmann</a></li>
+            <li><a href="Skills.html">Skills</a></li>
+            <li class="active"><a href="Coursework.html">Coursework</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+          </ul>
         </div>
-        <div class="container-fluid" id="tableContainer"> <!-- table container -->
-            <div class="row justify-content-center">
-                <div class="col-11">
-                    <!--https://getbootstrap.com/docs/5.0/content/tables/-->
-                    <table class="table table-light table-bordered">
-                        <thead>
-                            <tr class="text-center">
-                                <th colspan="8" class="h1">Adam Hemmann Course History</th>
-                            </tr>
-                            <tr class="text-center">
-                                <th colspan="8"><span id="schoolNameRow"><img class="goTigers" src="img/mu-tiger.png" alt="M-I-Z"><span class="h2">University of Missouri-Columbia</span><img class="goTigers" src="img/mu-tiger.png" alt="Z-O-U"></span></th>
-                            </tr>
-                            <tr class="text-center">
-                                <th class="align-middle">Department</th>
-                                <th class="align-middle">Course #</th>
-                                <th class="align-middle">Course Name</th>
-                                <th class="align-middle">Instructor</th>
-                                <th class="align-middle">Description</th>
-                                <th class="align-middle">Grade</th>
-                                <th class="align-middle">Credit Hours</th>
-                                <th class="align-middle">Knowledge Gained</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td rowspan="6" class="table-primary deptName centerMiddle">Information Technology</td>
-                                <td>INFOTC 1000</td>
-                                <td>Introduction to Information Technology</td>
-                                <td>Dale Musser</td>
-                                <td>This course introduces the field of Information Technology including foundation experiences and knowledge, the history of digital technologies, emphasis areas in the program, career opportunities, and ethical/social issues</td>
-                                <td>A+</td>
-                                <td>3</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>INFOTC 1040</td>
-                                <td>Introduction to Problem Solving & Programming</td>
-                                <td>Dale Musser</td>
-                                <td>An introduction to problem solving methods and programming concepts, providing experience in designing, developing, implementing, and testing programs. </td>
-                                <td>A+</td>
-                                <td>3</td>
-                                <td>This was my first coding course. Python was used exclusively.</td>
-                            </tr>
-                            <tr>
-                                <td>INFOTC 1610</td>
-                                <td>Introduction to Digital Media Design</td>
-                                <td>Christopher Guberra</td>
-                                <td>This project-based course is an introduction to the concepts and practices of audio design, graphic design, motion media design and basic video editing.</td>
-                                <td>A</td>
-                                <td>3</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>INFOTC 2040</td>
-                                <td>Programming Languages & Paradigms</td>
-                                <td>Dale Musser</td>
-                                <td>This course presents programming principles and their syntactical representation and implementation across languages including those that are compiled and interpreted.</td>
-                                <td>A</td>
-                                <td>3</td>
-                                <td>In this course I was introduced to C# as well as VS Code</td>
-                            </tr>
-                            <tr>
-                                <td>INFOTC 2810</td>
-                                <td>Fundamentals of Network Technology</td>
-                                <td>Fang Wang</td>
-                                <td>This course includes an overview of networking and the common wireless standards.</td>
-                                <td>A</td>
-                                <td>3</td>
-                                <td>This course finally helped understand subnet masking.</td>
-                            </tr>
-                            <tr>
-                                <td>INFOTC 2830</td>
-                                <td>Web Application Development I</td>
-                                <td>Nickolas Wergeles</td>
-                                <td>This course will attempt to provide a comprehensive understanding of the evolution, the technologies, and the tools of the Internet.</td>
-                                <td><em>In progress</em></td>
-                                <td>3</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td rowspan="2" class="table-success deptName centerMiddle">Mathematics</td>
-                                <td>MATH 1400</td>
-                                <td>Calculus for Social & Life Sciences I</td>
-                                <td>Abraham Bekele, Luis Flores</td>
-                                <td>The real number system, functions, analytic geometry, derivatives, integrals, maximum-minimum problems.</td>
-                                <td>A-</td>
-                                <td>3</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>MATH 1300</td>
-                                <td>Finite Mathematics</td>
-                                <td>Sophia Maniscalco</td>
-                                <td>A selections of topics in finite mathematics such as: basic financial mathematics, counting methods and basic probability and statistics, systems of linear equations and matrices.</td>
-                                <td><em>In progress</em></td>
-                                <td>3</td>
-                                <td></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="tableContainer">
+      <!-- table container -->
+      <div class="row justify-content-center">
+        <div class="col-11">
+          <!--https://getbootstrap.com/docs/5.0/content/tables/-->
+          <table class="table table-light table-bordered">
+            <thead>
+              <tr class="text-center">
+                <th colspan="8" class="h1">Adam Hemmann Course History</th>
+              </tr>
+              <tr class="text-center">
+                <th colspan="8">
+                  <span id="schoolNameRow"
+                    ><img
+                      class="goTigers"
+                      src="img/mu-tiger.png"
+                      alt="M-I-Z" /><span class="h2"
+                      >University of Missouri-Columbia</span
+                    ><img class="goTigers" src="img/mu-tiger.png" alt="Z-O-U"
+                  /></span>
+                </th>
+              </tr>
+              <tr class="text-center">
+                <th class="align-middle">Department</th>
+                <th class="align-middle">Course #</th>
+                <th class="align-middle">Course Name</th>
+                <th class="align-middle">Instructor</th>
+                <th class="align-middle">Description</th>
+                <th class="align-middle">Grade</th>
+                <th class="align-middle">Credit Hours</th>
+                <th class="align-middle">Knowledge Gained</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="6" class="table-primary deptName centerMiddle">
+                  Information Technology
+                </td>
+                <td>INFOTC 1000</td>
+                <td>Introduction to Information Technology</td>
+                <td>Dale Musser</td>
+                <td>
+                  This course introduces the field of Information Technology
+                  including foundation experiences and knowledge, the history of
+                  digital technologies, emphasis areas in the program, career
+                  opportunities, and ethical/social issues
+                </td>
+                <td>A+</td>
+                <td>3</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>INFOTC 1040</td>
+                <td>Introduction to Problem Solving & Programming</td>
+                <td>Dale Musser</td>
+                <td>
+                  An introduction to problem solving methods and programming
+                  concepts, providing experience in designing, developing,
+                  implementing, and testing programs.
+                </td>
+                <td>A+</td>
+                <td>3</td>
+                <td>
+                  This was my first coding course. Python was used exclusively.
+                </td>
+              </tr>
+              <tr>
+                <td>INFOTC 1610</td>
+                <td>Introduction to Digital Media Design</td>
+                <td>Christopher Guberra</td>
+                <td>
+                  This project-based course is an introduction to the concepts
+                  and practices of audio design, graphic design, motion media
+                  design and basic video editing.
+                </td>
+                <td>A</td>
+                <td>3</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>INFOTC 2040</td>
+                <td>Programming Languages & Paradigms</td>
+                <td>Dale Musser</td>
+                <td>
+                  This course presents programming principles and their
+                  syntactical representation and implementation across languages
+                  including those that are compiled and interpreted.
+                </td>
+                <td>A</td>
+                <td>3</td>
+                <td>
+                  In this course I was introduced to C# as well as VS Code
+                </td>
+              </tr>
+              <tr>
+                <td>INFOTC 2810</td>
+                <td>Fundamentals of Network Technology</td>
+                <td>Fang Wang</td>
+                <td>
+                  This course includes an overview of networking and the common
+                  wireless standards.
+                </td>
+                <td>A</td>
+                <td>3</td>
+                <td>This course finally helped understand subnet masking.</td>
+              </tr>
+              <tr>
+                <td>INFOTC 2830</td>
+                <td>Web Application Development I</td>
+                <td>Nickolas Wergeles</td>
+                <td>
+                  This course will attempt to provide a comprehensive
+                  understanding of the evolution, the technologies, and the
+                  tools of the Internet.
+                </td>
+                <td><em>In progress</em></td>
+                <td>3</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td rowspan="2" class="table-success deptName centerMiddle">
+                  Mathematics
+                </td>
+                <td>MATH 1400</td>
+                <td>Calculus for Social & Life Sciences I</td>
+                <td>Abraham Bekele, Luis Flores</td>
+                <td>
+                  The real number system, functions, analytic geometry,
+                  derivatives, integrals, maximum-minimum problems.
+                </td>
+                <td>A-</td>
+                <td>3</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>MATH 1300</td>
+                <td>Finite Mathematics</td>
+                <td>Sophia Maniscalco</td>
+                <td>
+                  A selections of topics in finite mathematics such as: basic
+                  financial mathematics, counting methods and basic probability
+                  and statistics, systems of linear equations and matrices.
+                </td>
+                <td><em>In progress</em></td>
+                <td>3</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-        <div class="container" id="cardsWrapper"> <!-- cards container -->
-            <div class="row justify-content-around">
-                <div class="col-sm-4">
-                    <!--https://getbootstrap.com/docs/5.0/components/card/-->
-                    <div class="card"> <!-- left card -->
-                        <img src="img/headShot.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Adam Hemmann</h5>
-                            <p class="card-text smallerCardText">Junior Information Technology Student</p>
-                            <p class="card-text smallerCardText">Email: ashgx6@mail.missouri.edu</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card text-center" id="middleCard"> <!-- middle card -->
-                        <p class="card-text">Languages:</p>
-                        <!--<ul class="list-group list-group-flush">
+      </div>
+    </div>
+    <div class="container" id="cardsWrapper">
+      <!-- cards container -->
+      <div class="row justify-content-around">
+        <div class="col-sm-4">
+          <!--https://getbootstrap.com/docs/5.0/components/card/-->
+          <div class="card">
+            <!-- left card -->
+            <img src="img/headShot.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Adam Hemmann</h5>
+              <p class="card-text smallerCardText">
+                Junior Information Technology Student
+              </p>
+              <p class="card-text smallerCardText">
+                Email: ashgx6@mail.missouri.edu
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card text-center" id="middleCard">
+            <!-- middle card -->
+            <p class="card-text">Languages:</p>
+            <!--<ul class="list-group list-group-flush">
                             <li class="list-group-item">C#</li>     < for testing
                             <li class="list-group-item">Python</li>
                             <li class="list-group-item">JavaScript</li>
                         </ul>-->
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank">C#</a></li>
-                            <li class="list-group-item"><a href="https://docs.python.org/3/" target="_blank">Python</a></li>
-                            <li class="list-group-item"><a href="https://docs.oracle.com/en/java/javase/17/" target="_blank">Java</a></li>
-                            <li class="list-group-item"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card text-end"> <!-- right card -->
-                        <!-- Minecraft logo from https://logos-world.net/wp-content/uploads/2020/04/Minecraft-Logo-2012-present.jpg -->
-                        <img src="img/Minecraft-Logo-2012-present.png" class="card-img-top" alt="The Minecraft logo">
-                        <div class="card-body">
-                            <!-- filler text pulled from https://en.wikipedia.org/wiki/Minecraft -->
-                            <p class="card-text smallerCardText">Minecraft is a sandbox video game developed by the Swedish video game developer Mojang Studios.</p>
-                            <p class="card-text smallerCardText">In Minecraft, players explore a blocky, procedurally-generated 3D world with virtually infinite terrain, and may discover and extract raw materials, craft tools and items, and build structures or earthworks.</p>
-                        </div>
-                        <div class="card-body">
-                            <a class="btn btn-success" href="https://www.minecraft.net/en-us" role="button" target="_blank">Check it out!</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <a
+                  href="https://docs.microsoft.com/en-us/dotnet/csharp/"
+                  target="_blank"
+                  >C#</a
+                >
+              </li>
+              <li class="list-group-item">
+                <a href="https://docs.python.org/3/" target="_blank">Python</a>
+              </li>
+              <li class="list-group-item">
+                <a
+                  href="https://docs.oracle.com/en/java/javase/17/"
+                  target="_blank"
+                  >Java</a
+                >
+              </li>
+              <li class="list-group-item">
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                  target="_blank"
+                  >JavaScript</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <p><em>Last updated by: Adam Hemmann (ashgx6) on: 9/17/2021</em></p>
-                </div>
+        <div class="col-sm-4">
+          <div class="card text-end">
+            <!-- right card -->
+            <!-- Minecraft logo from https://logos-world.net/wp-content/uploads/2020/04/Minecraft-Logo-2012-present.jpg -->
+            <img
+              src="img/Minecraft-Logo-2012-present.png"
+              class="card-img-top"
+              alt="The Minecraft logo"
+            />
+            <div class="card-body">
+              <!-- filler text pulled from https://en.wikipedia.org/wiki/Minecraft -->
+              <p class="card-text smallerCardText">
+                Minecraft is a sandbox video game developed by the Swedish video
+                game developer Mojang Studios.
+              </p>
+              <p class="card-text smallerCardText">
+                In Minecraft, players explore a blocky, procedurally-generated
+                3D world with virtually infinite terrain, and may discover and
+                extract raw materials, craft tools and items, and build
+                structures or earthworks.
+              </p>
             </div>
+            <div class="card-body">
+              <a
+                class="btn btn-success"
+                href="https://www.minecraft.net/en-us"
+                role="button"
+                target="_blank"
+                >Check it out!</a
+              >
+            </div>
+          </div>
         </div>
-        <!--
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <p><em>Last updated by: Adam Hemmann (ashgx6) on: 9/17/2021</em></p>
+        </div>
+      </div>
+    </div>
+    <!--
             Code for creating a modal using only HTML and CSS taken from: https://www.youtube.com/watch?v=bH6Xcszq2tQ
         -->
-        <div class="container"> <!-- modal container -->
-            <div class="row justify-content-center">
-                <div class="col" id="makeThisOneTaller">
-                    <div class="openModal" id="openModalButton">
-                        <a href="#myModal">Open Modal</a>
-                    </div>
-                    <div id="myModal">
-                        <div class="myModalContent">
-                            <!--
+    <div class="container">
+      <!-- modal container -->
+      <div class="row justify-content-center">
+        <div class="col" id="makeThisOneTaller">
+          <div class="openModal" id="openModalButton">
+            <a href="#myModal">Open Modal</a>
+          </div>
+          <div id="myModal">
+            <div class="myModalContent">
+              <!--
                                 Code for embeded YouTube videos taken from: https://www.w3schools.com/html/html_youtube.asp
                             -->
-                            <iframe width="450" height="350" src="https://www.youtube.com/embed/x_me3xsvDgk?autoplay=0&controls=0"></iframe>
-                            <!--
+              <iframe
+                width="450"
+                height="350"
+                src="https://www.youtube.com/embed/x_me3xsvDgk?autoplay=0&controls=0"
+              ></iframe>
+              <!--
                                 End of code from https://www.w3schools.com/html/html_youtube.asp
                             -->
-                            <a href="ashgx6-TablesCards-F21.html" class="closeMyModal">Close x</a>
-                            <!--
-                            I initially wanted to linke the Close button to a specific part of this page instead of just reloading the page again
+              <a href="ashgx6-TablesCards-F21.html" class="closeMyModal"
+                >Close x</a
+              >
+              <!--
+                            I initially wanted to link the Close button to a specific part of this page instead of just reloading the page again
                             but I was having trouble accomplishing this while also stopping the video playback. 
                             (i.e., change the above href value from "ashgx6-TablesCards-F21.html" to "#modalContainer" and then try to close 
                             the modal while playback is running.) 
                             It sounds like I can accomplish what I want fairly easily with JavaScript but we were instructed to exclusively 
                             use HTML and CSS for the bonus opportunity on this challenge.
                             -->
-                        </div>
-                    </div>
-                </div>
             </div>
+          </div>
         </div>
-        <!--
+      </div>
+    </div>
+    <!--
             End of code from https://www.youtube.com/watch?v=bH6Xcszq2tQ
-        --> 
-    </body>
+        -->
+  </body>
 </html>
