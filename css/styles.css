@@ -94,11 +94,12 @@ td {
   height: 100px;
 }
 /* NAV BAR */
-.navbar-body {
+/* .navbar-body {
   background-color: #8ecae6;
-}
+} */
 .navbar-custom {
-  height: 60px;
+  background-color: #8ecae6;
+  height: 50px;
   padding: 0;
   /* background-color: #8ecae6; */
 }
